@@ -9,7 +9,7 @@
 // include the rootca
 .org der_cert_address
 	der_cert_start:
-		.incbin    "rootca.der"
+		.incbin    "certs/rootca.der"
 	der_cert_end:
 
 //sizeof max 26 instructions
